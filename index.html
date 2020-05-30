@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Display</title>
+</head>
+<body>
+    <div class="dimmed"></div>
+    <div class="weather_wrap">
+        <p class="weather"></p>
+        <button class="updateBtn">Update</button>
+    </div>
+    <div class="main">
+        <div class="js-clock">
+            <h1 class="time">00:00</h1>
+        </div>
+        <form class="js-form name_form">
+            <input type="text" class="input_name" placeholder="What's your name?">
+        </form>
+        <p class="greetings greetingMessage"></p>
+        <form class="toDoForm">
+            <input type="text" class="input_doing" placeholder="Write a to do!">
+        </form>
+        <div class="todo_wrap">
+            <ul class="todo_list list"></ul>
+        </div>
+    </div>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
